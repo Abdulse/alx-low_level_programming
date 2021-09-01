@@ -1,25 +1,21 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+#include "holberton.h"
 
 /**
- * main - entry point
- * Description: print whether positive or negative
- * Return: 0 (Success)
+ * main - Print text
+ *
+ * Return: 0 for success
+ *
  */
 
 int main(void)
 {
-	int n;
+	char *sh = "Holberton";
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	if (n > 0)
-		printf("%d is positive", n);
-	else if (n < 0)
-		printf("%d is negative", n);
-	else if (n == 0)
-		printf("%d is zero", n);
-	printf("\n");
+	while (*sh)
+	{
+		_putchar(*sh);
+		sh++;
+	}
+	_putchar('\n');
 	return (0);
 }
