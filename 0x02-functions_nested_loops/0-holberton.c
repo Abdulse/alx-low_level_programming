@@ -1,17 +1,25 @@
-#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
 /**
- *main - entry point.
- *Description: program starts and ends here.
- *Return: 0 on success.
+ * main - entry point
+ * Description: print whether positive or negative
+ * Return: 0 (Success)
  */
+
 int main(void)
 {
-char text[9] = "Holberton";
-int i;
-for (i = 0; i < 9; i++)
-{
-_putchar(text[i]);
-}
-_putchar(10);
-return (0);
+	int n;
+
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	if (n > 0)
+		printf("%d is positive", n);
+	else if (n < 0)
+		printf("%d is negative", n);
+	else if (n == 0)
+		printf("%d is zero", n);
+	printf("\n");
+	return (0);
 }
