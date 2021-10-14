@@ -1,0 +1,553 @@
+﻿[09/07/21 17:17:14] info: Program: Starting Squirrel Updater: --checkForUpdate https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.0&env=production
+[09/07/21 17:17:14] info: Program: Fetching update information, downloading from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.0&env=production
+[09/07/21 17:17:15] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Toshiba\AppData\Local\Temp\.squirrel-lock-48FE7C22D3E613994FB92817740926B9EF394EC1: System.IO.IOException: The process cannot access the file 'C:\Users\Toshiba\AppData\Local\Temp\.squirrel-lock-48FE7C22D3E613994FB92817740926B9EF394EC1' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[09/07/21 17:17:15] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Toshiba\AppData\Local\Temp\.squirrel-lock-48FE7C22D3E613994FB92817740926B9EF394EC1: System.IO.IOException: The process cannot access the file 'C:\Users\Toshiba\AppData\Local\Temp\.squirrel-lock-48FE7C22D3E613994FB92817740926B9EF394EC1' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[09/07/21 17:17:16] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Toshiba\AppData\Local\Temp\.squirrel-lock-48FE7C22D3E613994FB92817740926B9EF394EC1: System.IO.IOException: The process cannot access the file 'C:\Users\Toshiba\AppData\Local\Temp\.squirrel-lock-48FE7C22D3E613994FB92817740926B9EF394EC1' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[09/07/21 17:17:16] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Toshiba\AppData\Local\Temp\.squirrel-lock-48FE7C22D3E613994FB92817740926B9EF394EC1: System.IO.IOException: The process cannot access the file 'C:\Users\Toshiba\AppData\Local\Temp\.squirrel-lock-48FE7C22D3E613994FB92817740926B9EF394EC1' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[09/07/21 17:17:16] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Toshiba\AppData\Local\Temp\.squirrel-lock-48FE7C22D3E613994FB92817740926B9EF394EC1: System.IO.IOException: The process cannot access the file 'C:\Users\Toshiba\AppData\Local\Temp\.squirrel-lock-48FE7C22D3E613994FB92817740926B9EF394EC1' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[09/07/21 17:17:16] warn: SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\Toshiba\AppData\Local\Temp\.squirrel-lock-48FE7C22D3E613994FB92817740926B9EF394EC1: System.IO.IOException: The process cannot access the file 'C:\Users\Toshiba\AppData\Local\Temp\.squirrel-lock-48FE7C22D3E613994FB92817740926B9EF394EC1' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+[09/07/21 17:17:17] fatal: Finished with unhandled exception: System.AggregateException: One or more errors occurred. ---> System.Exception: Couldn't acquire lock, is another instance running
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+   at Squirrel.UpdateManager.<acquireUpdateLock>b__33_0()
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.UpdateManager.<CheckForUpdate>d__8.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.Update.Program.<CheckForUpdate>d__8.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+---> (Inner Exception #0) System.Exception: Couldn't acquire lock, is another instance running
+   at Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+   at Squirrel.UpdateManager.<acquireUpdateLock>b__33_0()
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.UpdateManager.<CheckForUpdate>d__8.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.Update.Program.<CheckForUpdate>d__8.MoveNext()<---
+
+[09/07/21 18:00:12] info: Program: Starting Squirrel Updater: --checkForUpdate https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.0&env=production
+[09/07/21 18:00:12] info: Program: Fetching update information, downloading from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.0&env=production
+[09/07/21 18:00:12] info: CheckForUpdateImpl: Generated new staging user ID: 82f819cb-771b-5fdc-824f-fee3c32fdef1
+[09/07/21 18:00:12] info: CheckForUpdateImpl: Downloading RELEASES file from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.0&env=production
+[09/07/21 18:00:14] info: FileDownloader: Downloading url: https://central.github.com/api/deployments/desktop/desktop/latest/RELEASES?version=2.9.0&env=production&id=GitHubDesktop&localVersion=2.9.0&arch=amd64
+[09/07/21 18:00:16] info: Program: Finished Squirrel Updater
+[12/07/21 13:20:33] info: Program: Starting Squirrel Updater: --checkForUpdate https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.0&env=production
+[12/07/21 13:20:33] info: Program: Fetching update information, downloading from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.0&env=production
+[12/07/21 13:20:34] info: CheckForUpdateImpl: Using existing staging user ID: 82f819cb-771b-5fdc-824f-fee3c32fdef1
+[12/07/21 13:20:35] info: CheckForUpdateImpl: Downloading RELEASES file from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.0&env=production
+[12/07/21 13:20:37] info: FileDownloader: Downloading url: https://central.github.com/api/deployments/desktop/desktop/latest/RELEASES?version=2.9.0&env=production&id=GitHubDesktop&localVersion=2.9.0&arch=amd64
+[12/07/21 17:32:21] info: Program: Starting Squirrel Updater: --checkForUpdate https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.0&env=production
+[12/07/21 17:32:21] info: Program: Fetching update information, downloading from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.0&env=production
+[12/07/21 17:32:21] info: CheckForUpdateImpl: Using existing staging user ID: 82f819cb-771b-5fdc-824f-fee3c32fdef1
+[12/07/21 17:32:21] info: CheckForUpdateImpl: Downloading RELEASES file from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.0&env=production
+[12/07/21 17:32:21] info: FileDownloader: Downloading url: https://central.github.com/api/deployments/desktop/desktop/latest/RELEASES?version=2.9.0&env=production&id=GitHubDesktop&localVersion=2.9.0&arch=amd64
+[12/07/21 17:32:30] info: Program: Finished Squirrel Updater
+[19/07/21 14:47:39] info: Program: Starting Squirrel Updater: --checkForUpdate https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.0&env=production
+[19/07/21 14:47:40] info: Program: Fetching update information, downloading from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.0&env=production
+[19/07/21 14:47:41] info: CheckForUpdateImpl: Using existing staging user ID: 82f819cb-771b-5fdc-824f-fee3c32fdef1
+[19/07/21 14:47:42] info: CheckForUpdateImpl: Downloading RELEASES file from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.0&env=production
+[19/07/21 14:47:44] info: FileDownloader: Downloading url: https://central.github.com/api/deployments/desktop/desktop/latest/RELEASES?version=2.9.0&env=production&id=GitHubDesktop&localVersion=2.9.0&arch=amd64
+[19/07/21 14:48:00] info: Program: Finished Squirrel Updater
+[19/07/21 14:54:43] info: Program: Starting Squirrel Updater: --checkForUpdate https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.0&env=production
+[19/07/21 14:54:43] info: Program: Fetching update information, downloading from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.0&env=production
+[19/07/21 14:54:43] info: CheckForUpdateImpl: Using existing staging user ID: 82f819cb-771b-5fdc-824f-fee3c32fdef1
+[19/07/21 14:54:43] info: CheckForUpdateImpl: Downloading RELEASES file from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.0&env=production
+[19/07/21 14:54:43] info: FileDownloader: Downloading url: https://central.github.com/api/deployments/desktop/desktop/latest/RELEASES?version=2.9.0&env=production&id=GitHubDesktop&localVersion=2.9.0&arch=amd64
+[19/07/21 14:54:48] info: Program: Finished Squirrel Updater
+[19/07/21 20:21:18] info: Program: Starting Squirrel Updater: --checkForUpdate https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.0&env=production
+[19/07/21 20:21:18] info: Program: Fetching update information, downloading from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.0&env=production
+[19/07/21 20:21:23] info: CheckForUpdateImpl: Using existing staging user ID: 82f819cb-771b-5fdc-824f-fee3c32fdef1
+[19/07/21 20:21:27] info: CheckForUpdateImpl: Downloading RELEASES file from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.0&env=production
+[19/07/21 20:21:34] info: FileDownloader: Downloading url: https://central.github.com/api/deployments/desktop/desktop/latest/RELEASES?version=2.9.0&env=production&id=GitHubDesktop&localVersion=2.9.0&arch=amd64
+[19/07/21 20:21:51] info: Program: Finished Squirrel Updater
+[01/08/21 15:51:14] info: Program: Starting Squirrel Updater: --checkForUpdate https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.0&env=production
+[01/08/21 15:51:15] info: Program: Fetching update information, downloading from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.0&env=production
+[01/08/21 15:51:15] info: CheckForUpdateImpl: Using existing staging user ID: 82f819cb-771b-5fdc-824f-fee3c32fdef1
+[01/08/21 15:51:17] info: CheckForUpdateImpl: Downloading RELEASES file from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.0&env=production
+[01/08/21 15:51:23] info: FileDownloader: Downloading url: https://central.github.com/api/deployments/desktop/desktop/latest/RELEASES?version=2.9.0&env=production&id=GitHubDesktop&localVersion=2.9.0&arch=amd64
+[01/08/21 15:51:32] info: Program: Finished Squirrel Updater
+[09/08/21 10:54:26] info: Program: Starting Squirrel Updater: --checkForUpdate https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.0&env=production
+[09/08/21 10:54:27] info: Program: Fetching update information, downloading from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.0&env=production
+[09/08/21 10:54:28] info: CheckForUpdateImpl: Using existing staging user ID: 82f819cb-771b-5fdc-824f-fee3c32fdef1
+[09/08/21 10:54:29] info: CheckForUpdateImpl: Downloading RELEASES file from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.0&env=production
+[09/08/21 10:54:33] info: FileDownloader: Downloading url: https://central.github.com/api/deployments/desktop/desktop/latest/RELEASES?version=2.9.0&env=production&id=GitHubDesktop&localVersion=2.9.0&arch=amd64
+[09/08/21 10:54:46] info: Program: Finished Squirrel Updater
+[09/08/21 13:11:10] info: Program: Starting Squirrel Updater: --checkForUpdate https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.0&env=production
+[09/08/21 13:11:11] info: Program: Fetching update information, downloading from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.0&env=production
+[09/08/21 13:11:12] info: CheckForUpdateImpl: Using existing staging user ID: 82f819cb-771b-5fdc-824f-fee3c32fdef1
+[09/08/21 13:11:13] info: CheckForUpdateImpl: Downloading RELEASES file from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.0&env=production
+[09/08/21 13:11:17] info: FileDownloader: Downloading url: https://central.github.com/api/deployments/desktop/desktop/latest/RELEASES?version=2.9.0&env=production&id=GitHubDesktop&localVersion=2.9.0&arch=amd64
+[09/08/21 13:11:20] info: Program: Finished Squirrel Updater
+[18/08/21 19:05:03] info: Program: Starting Squirrel Updater: --checkForUpdate https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.0&env=production
+[18/08/21 19:05:03] info: Program: Fetching update information, downloading from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.0&env=production
+[18/08/21 19:05:05] info: CheckForUpdateImpl: Using existing staging user ID: 82f819cb-771b-5fdc-824f-fee3c32fdef1
+[18/08/21 19:05:06] info: CheckForUpdateImpl: Downloading RELEASES file from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.0&env=production
+[18/08/21 19:05:10] info: FileDownloader: Downloading url: https://central.github.com/api/deployments/desktop/desktop/latest/RELEASES?version=2.9.0&env=production&id=GitHubDesktop&localVersion=2.9.0&arch=amd64
+[18/08/21 19:05:37] info: Program: Finished Squirrel Updater
+[19/08/21 06:52:52] info: Program: Starting Squirrel Updater: --checkForUpdate https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.0&env=production
+[19/08/21 06:52:53] info: Program: Fetching update information, downloading from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.0&env=production
+[19/08/21 06:52:56] info: CheckForUpdateImpl: Using existing staging user ID: 82f819cb-771b-5fdc-824f-fee3c32fdef1
+[19/08/21 06:52:58] info: CheckForUpdateImpl: Downloading RELEASES file from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.0&env=production
+[19/08/21 06:53:03] info: FileDownloader: Downloading url: https://central.github.com/api/deployments/desktop/desktop/latest/RELEASES?version=2.9.0&env=production&id=GitHubDesktop&localVersion=2.9.0&arch=amd64
+[19/08/21 06:53:09] info: Program: Finished Squirrel Updater
+[19/08/21 17:43:24] info: Program: Starting Squirrel Updater: --checkForUpdate https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.0&env=production
+[19/08/21 17:43:24] info: Program: Fetching update information, downloading from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.0&env=production
+[19/08/21 17:43:24] info: CheckForUpdateImpl: Using existing staging user ID: 82f819cb-771b-5fdc-824f-fee3c32fdef1
+[19/08/21 17:43:25] info: CheckForUpdateImpl: Downloading RELEASES file from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.0&env=production
+[19/08/21 17:43:34] info: FileDownloader: Downloading url: https://central.github.com/api/deployments/desktop/desktop/latest/RELEASES?version=2.9.0&env=production&id=GitHubDesktop&localVersion=2.9.0&arch=amd64
+[19/08/21 17:43:38] info: Program: Finished Squirrel Updater
+[23/08/21 17:27:41] info: Program: Starting Squirrel Updater: --checkForUpdate https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.0&env=production
+[23/08/21 17:27:42] info: Program: Fetching update information, downloading from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.0&env=production
+[23/08/21 17:27:43] info: CheckForUpdateImpl: Using existing staging user ID: 82f819cb-771b-5fdc-824f-fee3c32fdef1
+[23/08/21 17:27:43] info: CheckForUpdateImpl: Downloading RELEASES file from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.0&env=production
+[23/08/21 17:27:47] info: FileDownloader: Downloading url: https://central.github.com/api/deployments/desktop/desktop/latest/RELEASES?version=2.9.0&env=production&id=GitHubDesktop&localVersion=2.9.0&arch=amd64
+[23/08/21 17:27:51] info: Program: Finished Squirrel Updater
+[23/08/21 21:27:23] info: Program: Starting Squirrel Updater: --checkForUpdate https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.0&env=production
+[23/08/21 21:27:23] info: Program: Fetching update information, downloading from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.0&env=production
+[23/08/21 21:27:23] info: CheckForUpdateImpl: Using existing staging user ID: 82f819cb-771b-5fdc-824f-fee3c32fdef1
+[23/08/21 21:27:24] info: CheckForUpdateImpl: Downloading RELEASES file from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.0&env=production
+[23/08/21 21:27:27] info: FileDownloader: Downloading url: https://central.github.com/api/deployments/desktop/desktop/latest/RELEASES?version=2.9.0&env=production&id=GitHubDesktop&localVersion=2.9.0&arch=amd64
+[23/08/21 21:27:41] info: Program: Finished Squirrel Updater
+[24/08/21 01:27:22] info: Program: Starting Squirrel Updater: --checkForUpdate https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.0&env=production
+[24/08/21 01:27:22] info: Program: Fetching update information, downloading from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.0&env=production
+[24/08/21 01:27:22] info: CheckForUpdateImpl: Using existing staging user ID: 82f819cb-771b-5fdc-824f-fee3c32fdef1
+[24/08/21 01:27:22] info: CheckForUpdateImpl: Downloading RELEASES file from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.0&env=production
+[24/08/21 01:27:23] info: FileDownloader: Downloading url: https://central.github.com/api/deployments/desktop/desktop/latest/RELEASES?version=2.9.0&env=production&id=GitHubDesktop&localVersion=2.9.0&arch=amd64
+[24/08/21 01:27:47] info: Program: Finished Squirrel Updater
+[24/08/21 19:17:20] info: Program: Starting Squirrel Updater: --checkForUpdate https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.0&env=production
+[24/08/21 19:17:20] info: Program: Fetching update information, downloading from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.0&env=production
+[24/08/21 19:17:20] info: CheckForUpdateImpl: Using existing staging user ID: 82f819cb-771b-5fdc-824f-fee3c32fdef1
+[24/08/21 19:17:20] info: CheckForUpdateImpl: Downloading RELEASES file from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.0&env=production
+[24/08/21 19:17:21] info: FileDownloader: Downloading url: https://central.github.com/api/deployments/desktop/desktop/latest/RELEASES?version=2.9.0&env=production&id=GitHubDesktop&localVersion=2.9.0&arch=amd64
+[24/08/21 19:17:28] warn: UpdateInfo: Couldn't get release notes for:GitHubDesktop-2.9.1-delta.nupkg: System.IO.FileNotFoundException: Could not find file 'C:\Users\Toshiba\AppData\Local\GitHubDesktop\packages\GitHubDesktop-2.9.1-delta.nupkg'.
+File name: 'C:\Users\Toshiba\AppData\Local\GitHubDesktop\packages\GitHubDesktop-2.9.1-delta.nupkg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at NuGet.ZipPackage.<>c__DisplayClass9_0.<.ctor>b__0()
+   at NuGet.ZipPackage.EnsureManifest()
+   at Squirrel.ReleaseEntry.GetReleaseNotes(String packageDirectory)
+   at Squirrel.UpdateInfo.<FetchReleaseNotes>b__19_0(ReleaseEntry x)
+[24/08/21 19:17:32] info: Program: Finished Squirrel Updater
+[26/08/21 16:44:06] info: Program: Starting Squirrel Updater: --checkForUpdate https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.0&env=production
+[26/08/21 16:44:06] info: Program: Fetching update information, downloading from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.0&env=production
+[26/08/21 16:44:08] info: CheckForUpdateImpl: Using existing staging user ID: 82f819cb-771b-5fdc-824f-fee3c32fdef1
+[26/08/21 16:44:09] info: CheckForUpdateImpl: Downloading RELEASES file from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.0&env=production
+[26/08/21 16:44:13] info: FileDownloader: Downloading url: https://central.github.com/api/deployments/desktop/desktop/latest/RELEASES?version=2.9.0&env=production&id=GitHubDesktop&localVersion=2.9.0&arch=amd64
+[26/08/21 16:44:21] warn: UpdateInfo: Couldn't get release notes for:GitHubDesktop-2.9.1-delta.nupkg: System.IO.FileFormatException: File contains corrupted data.
+   at MS.Internal.IO.Zip.ZipIOEndOfCentralDirectoryBlock.FindPosition(Stream archiveStream)
+   at MS.Internal.IO.Zip.ZipIOEndOfCentralDirectoryBlock.SeekableLoad(ZipIOBlockManager blockManager)
+   at MS.Internal.IO.Zip.ZipArchive..ctor(Stream archiveStream, FileMode mode, FileAccess access, Boolean streaming, Boolean ownStream)
+   at MS.Internal.IO.Zip.ZipArchive.OpenOnStream(Stream stream, FileMode mode, FileAccess access, Boolean streaming)
+   at System.IO.Packaging.ZipPackage..ctor(Stream s, FileMode mode, FileAccess access, Boolean streaming)
+   at System.IO.Packaging.Package.Open(Stream stream, FileMode packageMode, FileAccess packageAccess, Boolean streaming)
+   at NuGet.ZipPackage.EnsureManifest()
+   at Squirrel.ReleaseEntry.GetReleaseNotes(String packageDirectory)
+   at Squirrel.UpdateInfo.<FetchReleaseNotes>b__19_0(ReleaseEntry x)
+[26/08/21 16:44:21] warn: UpdateInfo: Couldn't get release notes for:GitHubDesktop-2.9.2-delta.nupkg: System.IO.FileNotFoundException: Could not find file 'C:\Users\Toshiba\AppData\Local\GitHubDesktop\packages\GitHubDesktop-2.9.2-delta.nupkg'.
+File name: 'C:\Users\Toshiba\AppData\Local\GitHubDesktop\packages\GitHubDesktop-2.9.2-delta.nupkg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at NuGet.ZipPackage.<>c__DisplayClass9_0.<.ctor>b__0()
+   at NuGet.ZipPackage.EnsureManifest()
+   at Squirrel.ReleaseEntry.GetReleaseNotes(String packageDirectory)
+   at Squirrel.UpdateInfo.<FetchReleaseNotes>b__19_0(ReleaseEntry x)
+[26/08/21 16:44:22] info: Program: Finished Squirrel Updater
+[27/08/21 17:30:33] info: Program: Starting Squirrel Updater: --checkForUpdate https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.2&env=production
+[27/08/21 17:30:33] info: Program: Fetching update information, downloading from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.2&env=production
+[27/08/21 17:30:34] info: CheckForUpdateImpl: Using existing staging user ID: 82f819cb-771b-5fdc-824f-fee3c32fdef1
+[27/08/21 17:30:35] info: CheckForUpdateImpl: Downloading RELEASES file from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.2&env=production
+[27/08/21 17:30:40] info: FileDownloader: Downloading url: https://central.github.com/api/deployments/desktop/desktop/latest/RELEASES?version=2.9.2&env=production&id=GitHubDesktop&localVersion=2.9.2&arch=amd64
+[27/08/21 17:30:47] info: Program: Finished Squirrel Updater
+[31/08/21 15:14:29] info: Program: Starting Squirrel Updater: --checkForUpdate https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.2&env=production
+[31/08/21 15:14:35] info: Program: Fetching update information, downloading from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.2&env=production
+[31/08/21 15:15:11] info: CheckForUpdateImpl: Using existing staging user ID: 82f819cb-771b-5fdc-824f-fee3c32fdef1
+[31/08/21 15:15:50] info: CheckForUpdateImpl: Downloading RELEASES file from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.2&env=production
+[31/08/21 16:34:21] info: Program: Starting Squirrel Updater: --checkForUpdate https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.2&env=production
+[31/08/21 16:34:24] info: Program: Fetching update information, downloading from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.2&env=production
+[31/08/21 16:34:31] info: CheckForUpdateImpl: Using existing staging user ID: 82f819cb-771b-5fdc-824f-fee3c32fdef1
+[31/08/21 16:34:39] info: CheckForUpdateImpl: Downloading RELEASES file from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.2&env=production
+[31/08/21 16:35:05] info: FileDownloader: Downloading url: https://central.github.com/api/deployments/desktop/desktop/latest/RELEASES?version=2.9.2&env=production&id=GitHubDesktop&localVersion=2.9.2&arch=amd64
+[31/08/21 16:35:24] info: Program: Finished Squirrel Updater
+[01/09/21 12:38:28] info: Program: Starting Squirrel Updater: --checkForUpdate https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.2&env=production
+[01/09/21 12:38:28] info: Program: Fetching update information, downloading from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.2&env=production
+[01/09/21 12:38:29] info: CheckForUpdateImpl: Using existing staging user ID: 82f819cb-771b-5fdc-824f-fee3c32fdef1
+[01/09/21 12:38:30] info: CheckForUpdateImpl: Downloading RELEASES file from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.2&env=production
+[01/09/21 12:38:37] info: FileDownloader: Downloading url: https://central.github.com/api/deployments/desktop/desktop/latest/RELEASES?version=2.9.2&env=production&id=GitHubDesktop&localVersion=2.9.2&arch=amd64
+[01/09/21 12:38:42] warn: UpdateInfo: Couldn't get release notes for:GitHubDesktop-2.9.3-delta.nupkg: System.IO.FileNotFoundException: Could not find file 'C:\Users\Toshiba\AppData\Local\GitHubDesktop\packages\GitHubDesktop-2.9.3-delta.nupkg'.
+File name: 'C:\Users\Toshiba\AppData\Local\GitHubDesktop\packages\GitHubDesktop-2.9.3-delta.nupkg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at NuGet.ZipPackage.<>c__DisplayClass9_0.<.ctor>b__0()
+   at NuGet.ZipPackage.EnsureManifest()
+   at Squirrel.ReleaseEntry.GetReleaseNotes(String packageDirectory)
+   at Squirrel.UpdateInfo.<FetchReleaseNotes>b__19_0(ReleaseEntry x)
+[01/09/21 12:38:43] info: Program: Finished Squirrel Updater
+[02/09/21 12:50:06] info: Program: Starting Squirrel Updater: --checkForUpdate https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.2&env=production
+[02/09/21 12:50:06] info: Program: Fetching update information, downloading from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.2&env=production
+[02/09/21 12:50:07] info: CheckForUpdateImpl: Using existing staging user ID: 82f819cb-771b-5fdc-824f-fee3c32fdef1
+[02/09/21 12:50:08] info: CheckForUpdateImpl: Downloading RELEASES file from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.2&env=production
+[02/09/21 12:50:11] info: FileDownloader: Downloading url: https://central.github.com/api/deployments/desktop/desktop/latest/RELEASES?version=2.9.2&env=production&id=GitHubDesktop&localVersion=2.9.2&arch=amd64
+[02/09/21 12:50:19] warn: UpdateInfo: Couldn't get release notes for:GitHubDesktop-2.9.3-delta.nupkg: System.IO.FileFormatException: File contains corrupted data.
+   at MS.Internal.IO.Zip.ZipIOEndOfCentralDirectoryBlock.FindPosition(Stream archiveStream)
+   at MS.Internal.IO.Zip.ZipIOEndOfCentralDirectoryBlock.SeekableLoad(ZipIOBlockManager blockManager)
+   at MS.Internal.IO.Zip.ZipArchive..ctor(Stream archiveStream, FileMode mode, FileAccess access, Boolean streaming, Boolean ownStream)
+   at MS.Internal.IO.Zip.ZipArchive.OpenOnStream(Stream stream, FileMode mode, FileAccess access, Boolean streaming)
+   at System.IO.Packaging.ZipPackage..ctor(Stream s, FileMode mode, FileAccess access, Boolean streaming)
+   at System.IO.Packaging.Package.Open(Stream stream, FileMode packageMode, FileAccess packageAccess, Boolean streaming)
+   at NuGet.ZipPackage.EnsureManifest()
+   at Squirrel.ReleaseEntry.GetReleaseNotes(String packageDirectory)
+   at Squirrel.UpdateInfo.<FetchReleaseNotes>b__19_0(ReleaseEntry x)
+[02/09/21 12:50:20] info: Program: Finished Squirrel Updater
+[06/09/21 17:48:25] info: Program: Starting Squirrel Updater: --checkForUpdate https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.2&env=production
+[06/09/21 17:48:26] info: Program: Fetching update information, downloading from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.2&env=production
+[06/09/21 17:48:27] info: CheckForUpdateImpl: Using existing staging user ID: 82f819cb-771b-5fdc-824f-fee3c32fdef1
+[06/09/21 17:48:28] info: CheckForUpdateImpl: Downloading RELEASES file from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.2&env=production
+[06/09/21 17:48:35] info: FileDownloader: Downloading url: https://central.github.com/api/deployments/desktop/desktop/latest/RELEASES?version=2.9.2&env=production&id=GitHubDesktop&localVersion=2.9.2&arch=amd64
+[06/09/21 17:48:42] warn: UpdateInfo: Couldn't get release notes for:GitHubDesktop-2.9.3-delta.nupkg: System.Exception: Invalid 'ReleaseNotes' value in nuspec file at 'C:\Users\Toshiba\AppData\Local\GitHubDesktop\packages\GitHubDesktop-2.9.3-delta.nupkg'
+   at Squirrel.ReleaseEntry.GetReleaseNotes(String packageDirectory)
+   at Squirrel.UpdateInfo.<FetchReleaseNotes>b__19_0(ReleaseEntry x)
+[06/09/21 17:48:43] info: Program: Finished Squirrel Updater
+[09/09/21 13:06:32] info: Program: Starting Squirrel Updater: --checkForUpdate https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.3&env=production
+[09/09/21 13:06:32] info: Program: Fetching update information, downloading from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.3&env=production
+[09/09/21 13:06:34] info: CheckForUpdateImpl: Using existing staging user ID: 82f819cb-771b-5fdc-824f-fee3c32fdef1
+[09/09/21 13:06:35] info: CheckForUpdateImpl: Downloading RELEASES file from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.3&env=production
+[09/09/21 13:06:41] info: FileDownloader: Downloading url: https://central.github.com/api/deployments/desktop/desktop/latest/RELEASES?version=2.9.3&env=production&id=GitHubDesktop&localVersion=2.9.3&arch=amd64
+[09/09/21 13:06:45] info: Program: Finished Squirrel Updater
+[13/09/21 17:25:23] info: Program: Starting Squirrel Updater: --checkForUpdate https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.3&env=production
+[13/09/21 17:25:24] info: Program: Fetching update information, downloading from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.3&env=production
+[13/09/21 17:25:25] info: CheckForUpdateImpl: Using existing staging user ID: 82f819cb-771b-5fdc-824f-fee3c32fdef1
+[13/09/21 17:25:26] info: CheckForUpdateImpl: Downloading RELEASES file from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.3&env=production
+[13/09/21 17:25:29] info: FileDownloader: Downloading url: https://central.github.com/api/deployments/desktop/desktop/latest/RELEASES?version=2.9.3&env=production&id=GitHubDesktop&localVersion=2.9.3&arch=amd64
+[13/09/21 17:25:34] info: Program: Finished Squirrel Updater
+[15/09/21 16:08:42] info: Program: Starting Squirrel Updater: --checkForUpdate https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.3&env=production
+[15/09/21 16:08:42] info: Program: Fetching update information, downloading from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.3&env=production
+[15/09/21 16:08:44] info: CheckForUpdateImpl: Using existing staging user ID: 82f819cb-771b-5fdc-824f-fee3c32fdef1
+[15/09/21 16:08:45] info: CheckForUpdateImpl: Downloading RELEASES file from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.3&env=production
+[15/09/21 16:08:49] info: FileDownloader: Downloading url: https://central.github.com/api/deployments/desktop/desktop/latest/RELEASES?version=2.9.3&env=production&id=GitHubDesktop&localVersion=2.9.3&arch=amd64
+[15/09/21 16:08:52] info: Program: Finished Squirrel Updater
+[17/09/21 18:17:58] info: Program: Starting Squirrel Updater: --checkForUpdate https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.3&env=production
+[17/09/21 18:17:58] info: Program: Fetching update information, downloading from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.3&env=production
+[17/09/21 18:18:00] info: CheckForUpdateImpl: Using existing staging user ID: 82f819cb-771b-5fdc-824f-fee3c32fdef1
+[17/09/21 18:18:03] info: CheckForUpdateImpl: Downloading RELEASES file from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.3&env=production
+[17/09/21 18:18:09] info: FileDownloader: Downloading url: https://central.github.com/api/deployments/desktop/desktop/latest/RELEASES?version=2.9.3&env=production&id=GitHubDesktop&localVersion=2.9.3&arch=amd64
+[17/09/21 18:18:14] info: Program: Finished Squirrel Updater
+[18/09/21 08:10:08] info: Program: Starting Squirrel Updater: --checkForUpdate https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.3&env=production
+[18/09/21 08:10:08] info: Program: Fetching update information, downloading from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.3&env=production
+[18/09/21 08:10:09] info: CheckForUpdateImpl: Using existing staging user ID: 82f819cb-771b-5fdc-824f-fee3c32fdef1
+[18/09/21 08:10:10] info: CheckForUpdateImpl: Downloading RELEASES file from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.3&env=production
+[18/09/21 08:10:13] info: FileDownloader: Downloading url: https://central.github.com/api/deployments/desktop/desktop/latest/RELEASES?version=2.9.3&env=production&id=GitHubDesktop&localVersion=2.9.3&arch=amd64
+[18/09/21 08:10:21] info: Program: Finished Squirrel Updater
+[21/09/21 19:18:46] info: Program: Starting Squirrel Updater: --checkForUpdate https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.3&env=production
+[21/09/21 19:18:46] info: Program: Fetching update information, downloading from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.3&env=production
+[21/09/21 19:18:47] info: CheckForUpdateImpl: Using existing staging user ID: 82f819cb-771b-5fdc-824f-fee3c32fdef1
+[21/09/21 19:18:49] info: CheckForUpdateImpl: Downloading RELEASES file from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.3&env=production
+[21/09/21 19:18:52] info: FileDownloader: Downloading url: https://central.github.com/api/deployments/desktop/desktop/latest/RELEASES?version=2.9.3&env=production&id=GitHubDesktop&localVersion=2.9.3&arch=amd64
+[21/09/21 19:18:55] info: Program: Finished Squirrel Updater
+[23/09/21 20:59:26] info: Program: Starting Squirrel Updater: --checkForUpdate https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.3&env=production
+[23/09/21 20:59:26] info: Program: Fetching update information, downloading from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.3&env=production
+[23/09/21 20:59:27] info: CheckForUpdateImpl: Using existing staging user ID: 82f819cb-771b-5fdc-824f-fee3c32fdef1
+[23/09/21 20:59:28] info: CheckForUpdateImpl: Downloading RELEASES file from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.3&env=production
+[23/09/21 20:59:31] info: FileDownloader: Downloading url: https://central.github.com/api/deployments/desktop/desktop/latest/RELEASES?version=2.9.3&env=production&id=GitHubDesktop&localVersion=2.9.3&arch=amd64
+[23/09/21 20:59:54] info: Program: Finished Squirrel Updater
+[24/09/21 08:27:08] info: Program: Starting Squirrel Updater: --checkForUpdate https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.3&env=production
+[24/09/21 08:27:09] info: Program: Fetching update information, downloading from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.3&env=production
+[24/09/21 08:27:10] info: CheckForUpdateImpl: Using existing staging user ID: 82f819cb-771b-5fdc-824f-fee3c32fdef1
+[24/09/21 08:27:12] info: CheckForUpdateImpl: Downloading RELEASES file from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.3&env=production
+[24/09/21 08:27:16] info: FileDownloader: Downloading url: https://central.github.com/api/deployments/desktop/desktop/latest/RELEASES?version=2.9.3&env=production&id=GitHubDesktop&localVersion=2.9.3&arch=amd64
+[24/09/21 08:27:20] info: Program: Finished Squirrel Updater
+[24/09/21 08:46:17] info: Program: Starting Squirrel Updater: --checkForUpdate https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.3&env=production
+[24/09/21 08:46:17] info: Program: Fetching update information, downloading from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.3&env=production
+[24/09/21 08:46:17] info: CheckForUpdateImpl: Using existing staging user ID: 82f819cb-771b-5fdc-824f-fee3c32fdef1
+[24/09/21 08:46:17] info: CheckForUpdateImpl: Downloading RELEASES file from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.3&env=production
+[24/09/21 08:46:18] info: FileDownloader: Downloading url: https://central.github.com/api/deployments/desktop/desktop/latest/RELEASES?version=2.9.3&env=production&id=GitHubDesktop&localVersion=2.9.3&arch=amd64
+[24/09/21 08:46:19] info: Program: Finished Squirrel Updater
+[27/09/21 16:48:38] info: Program: Starting Squirrel Updater: --checkForUpdate https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.3&env=production
+[27/09/21 16:48:40] info: Program: Fetching update information, downloading from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.3&env=production
+[27/09/21 16:48:42] info: CheckForUpdateImpl: Using existing staging user ID: 82f819cb-771b-5fdc-824f-fee3c32fdef1
+[27/09/21 16:48:44] info: CheckForUpdateImpl: Downloading RELEASES file from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.3&env=production
+[27/09/21 16:48:48] info: FileDownloader: Downloading url: https://central.github.com/api/deployments/desktop/desktop/latest/RELEASES?version=2.9.3&env=production&id=GitHubDesktop&localVersion=2.9.3&arch=amd64
+[30/09/21 00:24:19] info: Program: Starting Squirrel Updater: --checkForUpdate https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.3&env=production
+[30/09/21 00:24:19] info: Program: Fetching update information, downloading from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.3&env=production
+[30/09/21 00:24:20] info: CheckForUpdateImpl: Using existing staging user ID: 82f819cb-771b-5fdc-824f-fee3c32fdef1
+[30/09/21 00:24:23] info: CheckForUpdateImpl: Downloading RELEASES file from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.3&env=production
+[30/09/21 00:24:30] info: FileDownloader: Downloading url: https://central.github.com/api/deployments/desktop/desktop/latest/RELEASES?version=2.9.3&env=production&id=GitHubDesktop&localVersion=2.9.3&arch=amd64
+[30/09/21 00:24:45] info: Program: Finished Squirrel Updater
+[30/09/21 18:21:26] info: Program: Starting Squirrel Updater: --checkForUpdate https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.3&env=production
+[30/09/21 18:21:28] info: Program: Fetching update information, downloading from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.3&env=production
+[30/09/21 18:21:30] info: CheckForUpdateImpl: Using existing staging user ID: 82f819cb-771b-5fdc-824f-fee3c32fdef1
+[30/09/21 18:21:33] info: CheckForUpdateImpl: Downloading RELEASES file from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.3&env=production
+[30/09/21 18:21:42] info: FileDownloader: Downloading url: https://central.github.com/api/deployments/desktop/desktop/latest/RELEASES?version=2.9.3&env=production&id=GitHubDesktop&localVersion=2.9.3&arch=amd64
+[30/09/21 18:21:46] info: Program: Finished Squirrel Updater
+[07/10/21 23:05:02] info: Program: Starting Squirrel Updater: --checkForUpdate https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.3&env=production
+[07/10/21 23:05:02] info: Program: Fetching update information, downloading from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.3&env=production
+[07/10/21 23:05:03] info: CheckForUpdateImpl: Using existing staging user ID: 82f819cb-771b-5fdc-824f-fee3c32fdef1
+[07/10/21 23:05:06] info: CheckForUpdateImpl: Downloading RELEASES file from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.3&env=production
+[07/10/21 23:05:11] info: FileDownloader: Downloading url: https://central.github.com/api/deployments/desktop/desktop/latest/RELEASES?version=2.9.3&env=production&id=GitHubDesktop&localVersion=2.9.3&arch=amd64
+[07/10/21 23:05:14] warn: UpdateInfo: Couldn't get release notes for:GitHubDesktop-2.9.4-delta.nupkg: System.IO.FileNotFoundException: Could not find file 'C:\Users\Toshiba\AppData\Local\GitHubDesktop\packages\GitHubDesktop-2.9.4-delta.nupkg'.
+File name: 'C:\Users\Toshiba\AppData\Local\GitHubDesktop\packages\GitHubDesktop-2.9.4-delta.nupkg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at NuGet.ZipPackage.<>c__DisplayClass9_0.<.ctor>b__0()
+   at NuGet.ZipPackage.EnsureManifest()
+   at Squirrel.ReleaseEntry.GetReleaseNotes(String packageDirectory)
+   at Squirrel.UpdateInfo.<FetchReleaseNotes>b__19_0(ReleaseEntry x)
+[07/10/21 23:05:16] info: Program: Finished Squirrel Updater
+[11/10/21 17:27:09] info: Program: Starting Squirrel Updater: --checkForUpdate https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.3&env=production
+[11/10/21 17:27:09] info: Program: Fetching update information, downloading from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.3&env=production
+[11/10/21 17:27:09] info: CheckForUpdateImpl: Using existing staging user ID: 82f819cb-771b-5fdc-824f-fee3c32fdef1
+[11/10/21 17:27:09] info: CheckForUpdateImpl: Downloading RELEASES file from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.3&env=production
+[11/10/21 17:27:09] info: FileDownloader: Downloading url: https://central.github.com/api/deployments/desktop/desktop/latest/RELEASES?version=2.9.3&env=production&id=GitHubDesktop&localVersion=2.9.3&arch=amd64
+[11/10/21 17:28:32] info: Program: Starting Squirrel Updater: --checkForUpdate https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.3&env=production
+[11/10/21 17:28:32] info: Program: Fetching update information, downloading from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.3&env=production
+[11/10/21 17:28:32] info: CheckForUpdateImpl: Using existing staging user ID: 82f819cb-771b-5fdc-824f-fee3c32fdef1
+[11/10/21 17:28:32] info: CheckForUpdateImpl: Downloading RELEASES file from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.3&env=production
+[11/10/21 17:28:32] info: FileDownloader: Downloading url: https://central.github.com/api/deployments/desktop/desktop/latest/RELEASES?version=2.9.3&env=production&id=GitHubDesktop&localVersion=2.9.3&arch=amd64
+[11/10/21 17:28:54] warn: IEnableLogger: Failed to download url: https://central.github.com/api/deployments/desktop/desktop/latest/RELEASES?version=2.9.3&env=production&id=GitHubDesktop&localVersion=2.9.3&arch=amd64: System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 140.82.112.22:443
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   at System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+[11/10/21 17:28:54] info: FileDownloader: Downloading url: https://central.github.com/api/deployments/desktop/desktop/latest/releases?version=2.9.3&env=production&id=githubdesktop&localversion=2.9.3&arch=amd64
+[11/10/21 17:29:15] warn: IEnableLogger: Failed to download url: https://central.github.com/api/deployments/desktop/desktop/latest/releases?version=2.9.3&env=production&id=githubdesktop&localversion=2.9.3&arch=amd64: System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 140.82.112.22:443
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   at System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+[11/10/21 17:29:15] info: CheckForUpdateImpl: Download resulted in WebException (returning blank release list): System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 140.82.112.22:443
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   at System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Squirrel.FileDownloader.<DownloadUrl>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+[11/10/21 17:29:15] info: FileDownloader: Downloading url: https://central.github.com/api/deployments/desktop/desktop/latest/RELEASES?version=2.9.3&env=production&id=GitHubDesktop&localVersion=2.9.3&arch=amd64
+[11/10/21 17:31:58] warn: IEnableLogger: Failed to download url: https://central.github.com/api/deployments/desktop/desktop/latest/RELEASES?version=2.9.3&env=production&id=GitHubDesktop&localVersion=2.9.3&arch=amd64: System.Net.WebException: The remote name could not be resolved: 'central.github.com'
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   at System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+[11/10/21 17:31:58] info: FileDownloader: Downloading url: https://central.github.com/api/deployments/desktop/desktop/latest/releases?version=2.9.3&env=production&id=githubdesktop&localversion=2.9.3&arch=amd64
+[11/10/21 17:31:58] warn: IEnableLogger: Failed to download url: https://central.github.com/api/deployments/desktop/desktop/latest/releases?version=2.9.3&env=production&id=githubdesktop&localversion=2.9.3&arch=amd64: System.Net.WebException: The remote name could not be resolved: 'central.github.com'
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   at System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+[11/10/21 17:31:58] info: CheckForUpdateImpl: Download resulted in WebException (returning blank release list): System.Net.WebException: The remote name could not be resolved: 'central.github.com'
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   at System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Squirrel.FileDownloader.<DownloadUrl>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+[11/10/21 17:31:58] info: FileDownloader: Downloading url: https://central.github.com/api/deployments/desktop/desktop/latest/RELEASES?version=2.9.3&env=production&id=GitHubDesktop&localVersion=2.9.3&arch=amd64
+[11/10/21 17:31:58] warn: IEnableLogger: Failed to download url: https://central.github.com/api/deployments/desktop/desktop/latest/RELEASES?version=2.9.3&env=production&id=GitHubDesktop&localVersion=2.9.3&arch=amd64: System.Net.WebException: The remote name could not be resolved: 'central.github.com'
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   at System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+[11/10/21 17:31:58] info: FileDownloader: Downloading url: https://central.github.com/api/deployments/desktop/desktop/latest/releases?version=2.9.3&env=production&id=githubdesktop&localversion=2.9.3&arch=amd64
+[11/10/21 17:31:58] warn: IEnableLogger: Failed to download url: https://central.github.com/api/deployments/desktop/desktop/latest/releases?version=2.9.3&env=production&id=githubdesktop&localversion=2.9.3&arch=amd64: System.Net.WebException: The remote name could not be resolved: 'central.github.com'
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   at System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+[11/10/21 17:31:58] info: CheckForUpdateImpl: Download resulted in WebException (returning blank release list): System.Net.WebException: The remote name could not be resolved: 'central.github.com'
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   at System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Squirrel.FileDownloader.<DownloadUrl>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+[11/10/21 17:31:58] info: FileDownloader: Downloading url: https://central.github.com/api/deployments/desktop/desktop/latest/RELEASES?version=2.9.3&env=production&id=GitHubDesktop&localVersion=2.9.3&arch=amd64
+[11/10/21 17:31:58] warn: IEnableLogger: Failed to download url: https://central.github.com/api/deployments/desktop/desktop/latest/RELEASES?version=2.9.3&env=production&id=GitHubDesktop&localVersion=2.9.3&arch=amd64: System.Net.WebException: The remote name could not be resolved: 'central.github.com'
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   at System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+[11/10/21 17:31:58] info: FileDownloader: Downloading url: https://central.github.com/api/deployments/desktop/desktop/latest/releases?version=2.9.3&env=production&id=githubdesktop&localversion=2.9.3&arch=amd64
+[11/10/21 17:31:58] warn: IEnableLogger: Failed to download url: https://central.github.com/api/deployments/desktop/desktop/latest/releases?version=2.9.3&env=production&id=githubdesktop&localversion=2.9.3&arch=amd64: System.Net.WebException: The remote name could not be resolved: 'central.github.com'
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   at System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+[11/10/21 17:31:58] info: CheckForUpdateImpl: Download resulted in WebException (returning blank release list): System.Net.WebException: The remote name could not be resolved: 'central.github.com'
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   at System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Squirrel.FileDownloader.<DownloadUrl>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+[11/10/21 17:31:58] fatal: Finished with unhandled exception: System.AggregateException: One or more errors occurred. ---> System.Net.WebException: The remote name could not be resolved: 'central.github.com'
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   at System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Squirrel.FileDownloader.<DownloadUrl>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.UpdateManager.<CheckForUpdate>d__8.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.Update.Program.<CheckForUpdate>d__8.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+---> (Inner Exception #0) System.Net.WebException: The remote name could not be resolved: 'central.github.com'
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   at System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.Utility.<LogIfThrows>d__43`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Squirrel.FileDownloader.<DownloadUrl>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.UpdateManager.<CheckForUpdate>d__8.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.Update.Program.<CheckForUpdate>d__8.MoveNext()<---
+
+[11/10/21 17:49:13] info: Program: Starting Squirrel Updater: --checkForUpdate https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.3&env=production
+[11/10/21 17:49:13] info: Program: Fetching update information, downloading from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.3&env=production
+[11/10/21 17:49:13] info: CheckForUpdateImpl: Using existing staging user ID: 82f819cb-771b-5fdc-824f-fee3c32fdef1
+[11/10/21 17:49:13] info: CheckForUpdateImpl: Downloading RELEASES file from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.3&env=production
+[11/10/21 17:49:13] info: FileDownloader: Downloading url: https://central.github.com/api/deployments/desktop/desktop/latest/RELEASES?version=2.9.3&env=production&id=GitHubDesktop&localVersion=2.9.3&arch=amd64
+[14/10/21 20:10:25] info: Program: Starting Squirrel Updater: --checkForUpdate https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.3&env=production
+[14/10/21 20:10:25] info: Program: Fetching update information, downloading from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.3&env=production
+[14/10/21 20:10:25] info: CheckForUpdateImpl: Using existing staging user ID: 82f819cb-771b-5fdc-824f-fee3c32fdef1
+[14/10/21 20:10:25] info: CheckForUpdateImpl: Downloading RELEASES file from https://central.github.com/api/deployments/desktop/desktop/latest?version=2.9.3&env=production
+[14/10/21 20:10:26] info: FileDownloader: Downloading url: https://central.github.com/api/deployments/desktop/desktop/latest/RELEASES?version=2.9.3&env=production&id=GitHubDesktop&localVersion=2.9.3&arch=amd64
+[14/10/21 20:10:34] warn: UpdateInfo: Couldn't get release notes for:GitHubDesktop-2.9.4-delta.nupkg: System.IO.FileFormatException: File contains corrupted data.
+   at MS.Internal.IO.Zip.ZipIOEndOfCentralDirectoryBlock.FindPosition(Stream archiveStream)
+   at MS.Internal.IO.Zip.ZipIOEndOfCentralDirectoryBlock.SeekableLoad(ZipIOBlockManager blockManager)
+   at MS.Internal.IO.Zip.ZipArchive..ctor(Stream archiveStream, FileMode mode, FileAccess access, Boolean streaming, Boolean ownStream)
+   at MS.Internal.IO.Zip.ZipArchive.OpenOnStream(Stream stream, FileMode mode, FileAccess access, Boolean streaming)
+   at System.IO.Packaging.ZipPackage..ctor(Stream s, FileMode mode, FileAccess access, Boolean streaming)
+   at System.IO.Packaging.Package.Open(Stream stream, FileMode packageMode, FileAccess packageAccess, Boolean streaming)
+   at NuGet.ZipPackage.EnsureManifest()
+   at Squirrel.ReleaseEntry.GetReleaseNotes(String packageDirectory)
+   at Squirrel.UpdateInfo.<FetchReleaseNotes>b__19_0(ReleaseEntry x)
+[14/10/21 20:10:34] info: Program: Finished Squirrel Updater
